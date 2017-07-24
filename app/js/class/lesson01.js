@@ -1,15 +1,10 @@
 {
-	let a = 'Mr.Jin';
-	let b = '24';
-	let m = `你好！我是${a},今年${b}`;
-	console.log(m)
-}
-
-{
-	let a = 'abc';
-	console.log(a.repeat(3))
-}
-
-{
-	console.log('12'.padStart(13, '0'))
+	let a = {
+		'aa': 1
+	};
+	let b = ['bb'];
+	let c = ['a', 1];
+	let d = ['b', 2];
+	let set = new Map([c]);
+	console.log(set)
 }
